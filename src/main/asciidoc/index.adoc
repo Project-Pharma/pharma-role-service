@@ -1,0 +1,109 @@
+= Pharma Role Service Docs
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+An Online Pharmacy Network Application
+
+GET ROLE
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/role-get/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/role-get/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/role-get/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/role-get/response-body.adoc[]
+
+Response Fields:
+include::{snippets}/v1/role-get/response-fields.adoc[]
+
+GET PERMISSIONS
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/role-permissions-get/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/role-permissions-get/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/role-permissions-get/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/role-permissions-get/response-body.adoc[]
+
+Response Fields:
+include::{snippets}/v1/role-permissions-get/response-fields.adoc[]
+
+NEW ROLE
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/role-post/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/role-post/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/role-post/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/role-post/response-body.adoc[]
+
+Request Fields:
+include::{snippets}/v1/role-post/request-fields.adoc[]
+
+
+UPDATE ROLE
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/role-put/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/role-put/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/role-put/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/role-put/response-body.adoc[]
+
+Request Fields:
+include::{snippets}/v1/role-put/request-fields.adoc[]
+
+
+DELETE ROLE
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/role-delete/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/role-delete/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/role-delete/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/role-delete/response-body.adoc[]
+
+Request Fields:
+include::{snippets}/v1/role-delete/path-parameters.adoc[]
+
