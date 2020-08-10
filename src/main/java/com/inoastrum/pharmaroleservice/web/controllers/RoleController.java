@@ -27,7 +27,7 @@ public class RoleController {
     }
 
     @GetMapping("/permissions")
-    public ResponseEntity<List<Permission>> gerPermissions() {
+    public ResponseEntity<List<Permission>> getPermissions() {
         return new ResponseEntity<>(List.of(Permission.values()), HttpStatus.OK);
     }
 
